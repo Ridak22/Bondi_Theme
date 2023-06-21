@@ -1,7 +1,7 @@
 :root {
     --dark-color: #19283f;
     --green-color: #33d1cc;
-    --red-color: #ff3150;
+    --white-color: #dfcbce;
     --yellow-color: #ffc400;
     --section-color: #eff7fa;
 }
@@ -11,8 +11,8 @@ body {
 }
 
 .main-btn {
-    background-color: var(--red-color);
-    color: var(--yellow-color);
+    background-color: var(--white-color);
+    color: var(--dark-color);
     padding: 0.5rem 1.5rem;
 }
 
@@ -75,12 +75,18 @@ body {
 .navbar .navbar-toggler[aria-expanded="true"] {
     border-color: var(--green-color);
 }
+img, svg {
+    vertical-align: middle;
+    max-width: 40%;
+}
 
 /* End Navbar */
 
 /* Start Landing */
+
 .landing {
-    background-color: var(--dark-color);
+    background-image: url("/imgs/restuart.jpg");
+    background-size: cover;
     min-height: calc(100vh - 72px);
 }
 
