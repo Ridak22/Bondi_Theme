@@ -85,7 +85,7 @@ img, svg {
 /* Start Landing */
 
 .landing {
-    background-image: url("/imgs/restuart.jpg");
+    background-image: url("../imgs/restuart.jpg");
     background-size: cover;
     min-height: calc(100vh - 72px);
 }
